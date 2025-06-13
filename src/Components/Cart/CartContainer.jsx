@@ -99,13 +99,13 @@ const CartContainer = () => {
                                     <td>{cart_name}
                                         <div className='excart'>
                                         <p>Price: {cart_price} - Qty: {itemcount}</p>
-                                        <p style={{display:'flex', alignItems:'center', gap:5, cursor:"pointer"}}>Remove <ImBin /></p>
+                                        <p style={{display:'flex', alignItems:'center', gap:5, cursor:"pointer"}}>Remove <ImBin onClick={()=> removeCartItem(_id)}  /></p>
                                         </div>
                                     </td>
                                     <td>{cart_price}</td>
                                     <td>{itemcount}</td>
                                     <td>{itemcount * cart_price}</td>
-                                    <td ><ImBin onClick={()=> removeCartItem(_id)} /></td>
+                                    <td ><ImBin style={{cursor:"pointer"}} onClick={()=> removeCartItem(_id)} /></td>
                                 </tr>
                             )
                         })

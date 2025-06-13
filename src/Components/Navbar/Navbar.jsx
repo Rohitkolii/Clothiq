@@ -45,10 +45,9 @@ const Navbar = () => {
 
     const showlogin = () => {
         if(localStorage.getItem('shopingotoken')){
-            return <Link className='logbtn' href="/login" onClick={()=> logoutHandler()}>Logout</Link>
+            return <Link className='logbtn' to="login" onClick={()=> logoutHandler()}>Logout</Link>
         } else{
-            // return <Button Links={Links}/>
-            return <Link className='logbtn' href="/login">Logout</Link>
+            return <Link className='logbtn' to="/login">Login</Link>
         }
     }
     

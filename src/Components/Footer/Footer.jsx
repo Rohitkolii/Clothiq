@@ -10,20 +10,20 @@ const Footer = () => {
                     <div className='Footerform'>
                         <h1><span>C</span>lothiqs<span>.</span></h1>
                         <p>Lorem, ipsum dolor sit consectetur <br /> adipisicing elit?</p>
-                        <input type="email" placeholder='Your email here' />
+                        {/* <input type="email" placeholder='Your email here' /> */}
                     </div>
                     <div className='Footeraddress'>
                         <h2>Address</h2>
                         <p>20, Awesome Road, <br /> New Delhi, 532C</p>
                         <p> &#9990; +91 9999888852</p>
-                        <p>contact@shopingo.com</p>
+                        <p>contact@clothiqs.com</p>
                     </div>
                     <div className='Footerlink'>
                         <h2>Useful Links</h2>
-                        <Link to='/'>Shop Coupon</Link>
-                        <Link to='/'>About us</Link>
-                        <Link to='/'>Carrier</Link>
-                        <Link to='/'>Support</Link>
+                        <Link to='/shop'>Shop</Link>
+                        <Link to='/about'>About</Link>
+                        <Link to='/cart'>cart</Link>
+                        <Link to='/myorders'>Orders</Link>
                     </div>
                     <div className='Footercategories'>
                         <h2>Categories</h2>

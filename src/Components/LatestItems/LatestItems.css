@@ -206,25 +206,20 @@ a{
         display: flex;
     }
 }
-    @media only screen and (max-width: 600px){
-        .offer-ic .sale, .offer-ic .pc{
-            font-size: 8px;
-        }
-    }
     
 
-    @media only screen and (max-width: 400px){
-        .Item-container{
-            display: grid;
-            gap: 20px;
-            grid-template-columns: repeat(1, 1fr);
-        }
-
-        .inner-LatestItems{
-            width: 90%;
-        }
-
-        .Item-img{
-            height: 15rem;
-        }
+@media only screen and (max-width: 400px){
+    .Item-container{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
     }
+
+    .inner-LatestItems{
+        width: 90%;
+    }
+
+    .Item-img{
+        height: fit-content;
+    }
+}

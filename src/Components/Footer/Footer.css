@@ -133,6 +133,16 @@
     margin: 0px 8px;
 }
 
+.copyright p{
+    color: white;
+    font-size: 15px;
+    /* font-weight: 600; */
+}
+
+.copyright a{
+    color: var(--main);
+}
+
 @media only screen and (max-width: 1240px){
     .inner-Footer{
         width: 95%;
