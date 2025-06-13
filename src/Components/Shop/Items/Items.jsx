@@ -9,6 +9,7 @@ import { useCartContext } from '../../Context/CartContext'
 
   import { ToastContainer } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+import Loading from '../../Loading/Loading'
 
 const API = 'https://api.pujakaitem.com/api/products'
 
@@ -50,10 +51,7 @@ const Items = () => {
         <div className='Item'>
             {
                 isSingleLoading ? 
-                <div className='loader-container'>
-                    <div className='loader'></div>
-                    <h4>Loading</h4>
-                </div>
+                <Loading />
                 :
                 <div className='inner-Items'>
                     <div className="ItemsContainer">

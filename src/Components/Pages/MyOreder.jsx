@@ -6,6 +6,7 @@ import { ImBin } from "react-icons/im";
 import { useEffect } from "react";
 import '../Cart/CartContainer.css'
 import { useOrder } from "../Context/OrderContext";
+import "../Pages/MyOrder.css"
 
 const MyOreder = () =>{
 
@@ -27,7 +28,7 @@ const MyOreder = () =>{
             <SubHeader mydata={data} />
             {
                 !!UserOrders.length ?
-            <div style={{padding:"20px 0px"}} className="cartTable">
+            <div style={{padding:"20px 0px"}} className="cartTable ot">
             <table>
                 <tr>
                     <th>Product</th>
@@ -38,7 +39,7 @@ const MyOreder = () =>{
                     <th>Remove</th>
                 </tr>
             {
-                UserOrders && UserOrders?.map(({Product_Name, price, img, Status, itemcount, ed},i)=> {
+                UserOrders && UserOrders?.map(({Product_Name, price, isDelivered ,delivery_date, img, Status, itemcount, ed},i)=> {
                     return(
                         <tr key={i}>
                             <td>
@@ -47,13 +48,21 @@ const MyOreder = () =>{
                             <td>{Product_Name}
                                 <div className='excart'>
                                 <p>Price: {price * itemcount} - Qty: {itemcount}</p>
-                                <p>{Status}</p>
+                                {isDelivered ? 
+                            <p>"Delivered on"<br />{delivery_date}</p>
+                             : 
+                             <p>{Status}</p>
+                             }
                                 </div>
                             </td>
                             <td>{price}</td>
                             <td>{itemcount}</td>
                             <td>{itemcount * price}</td>
-                            <td><ImBin /></td>
+                            {isDelivered ? 
+                            <td>"Delivered on" <br />{delivery_date}</td>
+                             : 
+                             <td>{Status}</td>
+                             }
                         </tr>
                         )
                     })

@@ -144,8 +144,9 @@ const CartContainer = () => {
         :
         <div className='showiflogout'>
             <img src="images/loginimg.png" alt="" />
-            <h1>Please login First</h1>
-            <Link to='/login'>Login</Link>
+            <h1>Please login!</h1>
+            {/* <Link to='/login'>Login</Link> */}
+            <Button style={{padding:"0px 50px"}} Links={{Link: '/login',LinkText: 'Login'}}></Button>
         </div>
         }
         </>
