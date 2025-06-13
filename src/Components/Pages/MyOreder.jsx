@@ -25,6 +25,8 @@ const MyOreder = () =>{
         <>
             <Navbar />
             <SubHeader mydata={data} />
+            {
+                !!UserOrders.length ?
             <div style={{padding:"20px 0px"}} className="cartTable">
             <table>
                 <tr>
@@ -57,7 +59,12 @@ const MyOreder = () =>{
                     })
                 }
             </table> 
-            </div> 
+            </div>
+            :
+            <div style={{textAlign:"center", padding: "50px 0", color: "#614BC3"}}>
+                <h1>No Orders Found!</h1>
+            </div>
+            }
             <Footer />
         </>
     )
