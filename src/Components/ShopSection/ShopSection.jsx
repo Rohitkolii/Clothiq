@@ -9,7 +9,7 @@ import './ShopSection.css'
 const ShopSection = ({setitemurl}) => {
 
 
-    const {products, Loading} = useProductContext()
+    const {products, isLoading} = useProductContext()
     const [filteredproduct, setfilteredproduct] = useState()
     console.log(products);
     
@@ -18,7 +18,7 @@ const ShopSection = ({setitemurl}) => {
         setfilteredproduct(products)
     }, [products])
 
-    if(Loading){
+    if(isLoading){
         return <h1>Loading...</h1>
     }
 

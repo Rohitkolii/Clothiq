@@ -11,6 +11,10 @@
     --fade : #614bc321
 }
 
+body{
+    /* background-color: #f9f9f9; */
+}
+
 .incon input{
     padding: 8px 10px;
     border: 1px solid rgba(128, 128, 128, 0.493);
