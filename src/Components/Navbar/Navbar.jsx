@@ -45,9 +45,10 @@ const Navbar = () => {
 
     const showlogin = () => {
         if(localStorage.getItem('shopingotoken')){
-            return <button href='/login' style={{backgroundColor: '#614BC3', padding: '8px 15px', cursor: 'pointer', border: 'transparent', textTransform: 'uppercase'}} onClick={()=> logoutHandler()}>Logout</button>
+            return <Link className='logbtn' href="/login" onClick={()=> logoutHandler()}>Logout</Link>
         } else{
-            return <Button Links={Links}/>
+            // return <Button Links={Links}/>
+            return <Link className='logbtn' href="/login">Logout</Link>
         }
     }
     
@@ -55,8 +56,8 @@ const Navbar = () => {
         <div className="Navbar">
             <div className="nav-logo">
                 <Link to='/'>
-                    {/* <h1>Shopin<span>Go</span></h1> */}
-                    <img src="images/logo.png" alt="" />
+                    <h1><span>C</span>lothiqs<span>.</span></h1>
+                    {/* <img src="images/logo.png" alt="" /> */}
                 </Link>
             </div>
 

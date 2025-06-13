@@ -57,8 +57,8 @@ const CartContainer = () => {
     }
 
     useEffect(()=> {
-        getUserCart(`${process.env.REACT_APP_URL}1/api/cart/get/${localStorage.getItem("userid")}`)
-            Total()
+        getUserCart(`${process.env.REACT_APP_URL}/api/cart/get/${localStorage.getItem("userid")}`)
+        Total()
     }, [])
 
     return(
@@ -67,7 +67,7 @@ const CartContainer = () => {
         localStorage.getItem('shopingotoken') ?
         <>
         {
-        userCart && userCart?.length === 0 ? 
+        userCart && !userCart.length ? 
         <div className='empty-con' >
             <img src="Images/cart2.png" alt="" />
             <h1>EMPTY CART</h1>

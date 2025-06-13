@@ -25,7 +25,7 @@ const MyOreder = () =>{
         <>
             <Navbar />
             <SubHeader mydata={data} />
-            <div className="cartTable">
+            <div style={{padding:"20px 0px"}} className="cartTable">
             <table>
                 <tr>
                     <th>Product</th>

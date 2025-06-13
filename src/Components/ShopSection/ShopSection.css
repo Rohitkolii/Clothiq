@@ -6,7 +6,7 @@
 }
 
 .ShopSection-Sidebar{
-    padding: 0 15px;
+    /* padding: 0 15px; */
     width: 30%;
     height: auto;
     border-radius: 6px;
@@ -37,7 +37,7 @@
 @media only screen and (max-width: 830px){
     
     .ShopSection-Sidebar{
-        width: 95%;
+        width: 100%;
         margin: auto;
     }
     .inner-ShopSection{
@@ -46,7 +46,7 @@
     }
 
     .ShopSection-PostSection{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
 }

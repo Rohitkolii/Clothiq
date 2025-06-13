@@ -1,9 +1,11 @@
 .mainButton{
     /* background-color: rgb(111, 204, 250); */
     background-color: #614BC3;
-    padding: 8px 15px;
+    color: white;
+    padding: 8px 25px;
     box-shadow: 1px 1px 5px rgb(194, 186, 186);
     text-decoration: none;
-    color: black;
+    /* color: black; */
     transition: 1s;
+    border-radius: 24px;
 }

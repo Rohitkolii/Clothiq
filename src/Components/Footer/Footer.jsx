@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='inner-Footer'>
                 <div className='Footer1'>
                     <div className='Footerform'>
-                        <h2>ShopinGo</h2>
+                        <h1><span>C</span>lothiqs<span>.</span></h1>
                         <p>Lorem, ipsum dolor sit consectetur <br /> adipisicing elit?</p>
                         <input type="email" placeholder='Your email here' />
                     </div>

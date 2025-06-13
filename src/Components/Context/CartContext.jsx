@@ -96,11 +96,10 @@ const CartProvider = ({children}) => {
     }
 
     const removeCartItem =  async(ed) => {
-        // console.log(ed);
-        
         const res = await fetch(`${process.env.REACT_APP_URL}/api/cart/delete/${ed}`,{
-                method: "DELETE",
-            })
+            method: "DELETE",
+        })
+        getUserCart();
     }
 
     const getCartproducts = async (url) => {

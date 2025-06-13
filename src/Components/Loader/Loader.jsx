@@ -4,7 +4,11 @@ import "./Loader.css"
 const Loader = () => {
   return (
     <div className='load'>
-      <div class="loader"></div>
+      <div className='loadercon'>
+        <div class="loader"></div>
+        <p>Fetching Data from Database!</p>
+        <p>This may take few seconds!</p>
+      </div>
     </div>
   )
 }

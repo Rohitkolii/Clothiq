@@ -3,7 +3,7 @@ import './Button.css'
 
 const Button = ({Links}) => {
     return(
-            <Link className='mainButton' to={Links.Link}>{Links.LinkText}</Link>
+        <Link className='mainButton' to={Links.Link}>{Links.LinkText}</Link>
     )
 }
 
