@@ -3,48 +3,49 @@ import './Testimonials.css';
 
 const testimonials = [
   {
-    name: "Alfonso Vutrows",
-    role: "Scholar, University of Vancouver",
-    image: "https://i.pravatar.cc/50?img=1",
-    message: "Have a great time talking with Menghan. I’ve learned a lot about UX Design process and gained feedback about my portfolio."
+    name: "Ananya Sharma",
+    role: "Fashion Blogger, Delhi",
+    image: "https://i.pravatar.cc/50?img=11",
+    message: "Absolutely love the fabric quality and trendy designs from Clothiqs. Perfect for Delhi’s ever-changing fashion scene!"
   },
   {
-    name: "Miracle Saris",
-    role: "Enrollee, University of Montreal",
-    image: "https://i.pravatar.cc/50?img=2",
-    message: "I had a fantastic conversation with Alex! I learned a lot about the user experience design process and received some..."
+    name: "Ravi Verma",
+    role: "College Student, Mumbai",
+    image: "https://i.pravatar.cc/50?img=12",
+    message: "Stylish yet affordable! Got compliments from friends on my new kurta. Clothiqs never disappoints."
   },
   {
-    name: "Chance Saris",
-    role: "Pupil, University of Ottawa",
-    image: "https://i.pravatar.cc/50?img=3",
-    message: "I had an amazing conversation with Alex! Gained valuable insights into the UX design process and received feedback on my portfolio."
+    name: "Priya Desai",
+    role: "Software Engineer, Pune",
+    image: "https://i.pravatar.cc/50?img=13",
+    message: "Loved the quick delivery and packaging. The cotton top I bought is super breathable – ideal for Pune’s weather."
   },
   {
-    name: "Maren Rhiel Madsen",
-    role: "Participant, University of Victoria",
-    image: "https://i.pravatar.cc/50?img=4",
-    message: "I had a fantastic conversation with Alex! I learned a lot about the user experience design journey and received..."
+    name: "Aman Joshi",
+    role: "Entrepreneur, Bengaluru",
+    image: "https://i.pravatar.cc/50?img=14",
+    message: "From casual to festive, Clothiqs has a great range. Their Indo-western wear fits perfectly and looks classy."
   },
   {
-    name: "Philip Starton",
-    role: "Learner, University of Calgary",
-    image: "https://i.pravatar.cc/50?img=5",
-    message: "I had an amazing conversation with Alex! Gained valuable insights into the UX Design process and received constructive feedback."
+    name: "Sneha Reddy",
+    role: "Fashion Enthusiast, Hyderabad",
+    image: "https://i.pravatar.cc/50?img=15",
+    message: "I’m obsessed with their saree collection. Modern prints with traditional elegance—love shopping here!"
   },
   {
-    name: "Tiara Bergson",
-    role: "Attendee, University of Quebec",
-    image: "https://i.pravatar.cc/50?img=6",
-    message: "Just had a super fun chat with Menghan! Learned a ton about the UX design process and got some awesome feedback!"
+    name: "Meera Iyer",
+    role: "Marketing Executive, Chandigarh",
+    image: "https://i.pravatar.cc/50?img=16",
+    message: "Comfortable chinos and trendy shirts at great prices. Clothiqs is now my go-to brand for workwear."
   },
   {
-    name: "Avery Juno",
-    role: "Intern, University of Alberta",
-    image: "https://i.pravatar.cc/50?img=7",
-    message: "Great experience learning UX through the discussion. It really helped sharpen my approach to user empathy."
-  },
+    name: "Jatin Mehra",
+    role: "Interior Designer, Chennai",
+    image: "https://i.pravatar.cc/50?img=17",
+    message: "Love the earthy tones and sustainable fabrics. Great to see an Indian brand supporting eco-fashion!"
+  }
 ];
+
 
 const Testimonials = () => {
   const firstRow = testimonials.slice(0, 4);

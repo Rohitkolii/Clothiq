@@ -18,6 +18,7 @@
 }
 .inner-Footer{
     width: 80%;
+    max-width: 1400px;
     margin: auto;
     padding-top: 50px;
 }

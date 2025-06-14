@@ -1,7 +1,7 @@
 .LatestItems{
     height: auto;
     color: rgb(63, 60, 60);
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 a{
@@ -11,6 +11,7 @@ a{
 
 .inner-LatestItems{
     width: 80%;
+    max-width: 1400px;
     margin: auto;
 }
 .Item-container{
@@ -22,7 +23,7 @@ a{
     margin: 50px auto;
 }
 .Items{
-    box-shadow: 1px 1px 5px rgba(134, 131, 131, 0.186);
+    box-shadow: 1px 1px 5px rgba(134, 131, 131, 0.062);
     /* border-radius: 0px 0px 8px 8px; */
     transition: 1s;
     /* background-color: rgb(226, 242, 250); */
@@ -30,7 +31,7 @@ a{
     /* border-radius: 12px 12px 0 0; */
 }
 .Items:hover{
-    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.366);
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.115);
     transform: translateY(-10px);
 }
 

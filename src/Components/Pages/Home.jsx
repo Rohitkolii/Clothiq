@@ -1,5 +1,6 @@
 // import CollapseCard from "../CollapseCard/CollapseCard";
 import Accordion from "../Accordion/Accordion";
+import Category from "../Category/Category";
 import DeliveryCycle from "../DeliveryCycle/DeliveryCycle";
 import FeaturedPost from "../FeaturedPost/FeaturedPost";
 import Footer from "../Footer/Footer";
@@ -14,6 +15,7 @@ const Home = () => {
             {/* <Navbar /> */}
             <Header />
             <DeliveryCycle />
+            {/* <Category /> */}
             <LatestItems />
             {/* <CollapseCard /> */}
             <FeaturedPost />

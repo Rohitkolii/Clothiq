@@ -9,7 +9,7 @@
 }
 .inner-FeaturedPost{
     width: 80%;
-    /* max-width: 1400px; */
+    max-width: 1400px;
     /* height: 28rem; */
     margin: auto;
     display: flex;

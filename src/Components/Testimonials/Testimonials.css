@@ -4,6 +4,7 @@
 }
 .testimonial-wrapper {
     width: 80%;
+    max-width: 1400px;
     margin: auto;
   display: flex;
   flex-direction: column;
