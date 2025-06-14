@@ -1,6 +1,6 @@
 import './Items.css'
 import {AiFillLinkedin, AiFillInstagram, AiOutlineTwitter, AiFillFacebook, AiOutlinePlus, AiOutlineMinus, AiFillStar } from 'react-icons/ai'
-import { BsCheckLg} from 'react-icons/bs'
+// import { BsCheckLg} from 'react-icons/bs'
 import { useParams } from 'react-router-dom'
 import { useProductContext } from '../../Context/Context'
 import { useEffect, useState } from 'react'
@@ -11,7 +11,7 @@ import { useCartContext } from '../../Context/CartContext'
   import 'react-toastify/dist/ReactToastify.css';
 import Loading from '../../Loading/Loading'
 
-const API = 'https://api.pujakaitem.com/api/products'
+// const API = 'https://api.pujakaitem.com/api/products'
 
 const Items = () => {
 
@@ -29,9 +29,9 @@ const Items = () => {
         product_rating,
         product_img,
         product_desc,
-        isTrending,
-        createdAt,
-        updatedAt
+        // isTrending,
+        // createdAt,
+        // updatedAt
     } = SingleProduct || {};
 
     // console.log(typeof Number(product_rating));

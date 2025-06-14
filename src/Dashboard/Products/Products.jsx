@@ -6,7 +6,7 @@ import { useProductContext } from '../../Components/Context/Context'
 
 const Products = () => {
      const[sidebarVisiblity, setSidebarVisiblity] = useState(false)
-    const {products, Loading} = useProductContext()
+    const {products} = useProductContext()
     console.log(products);
     
      const setSearchQuery = () => {

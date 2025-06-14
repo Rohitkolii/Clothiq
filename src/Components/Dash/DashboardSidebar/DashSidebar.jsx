@@ -20,7 +20,7 @@ const DashSidebar = ({setSidebarVisiblity, sidebarVisiblity}) => {
         <div className={Styles.sidebarHead}>
           <div>
             {/* <img src="/images/wheel.png" alt="" /> */}
-            <p><span style={{color: "#8459ba"}}>Admin</span>Panel<span style={{color: "#8459ba"}}>.</span></p>
+            <p><span style={{color: "#8459ba"}}>Clothiqs </span>Panel<span style={{color: "#8459ba"}}>.</span></p>
           </div>
           <IoMdClose className={Styles.closeMenu} onClick={()=> setSidebarVisiblity(!sidebarVisiblity)} />
         </div>
